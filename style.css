@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+main{
+    background-image: url("topography.png");
+    padding: 0 10%;
+    font-family: Consolas, courier, serif;
+}
+
+img{
+    padding: 5px;
+    height: 80%;
+    width: auto;
+}
+
+nav{
+    padding: 10px 10%;
+    background-color: #333333;
+    height: 50px;
+}
+
+nav > a{
+    color: #ff0099;
+    font-family: Consolas, serif;
+    font-size: 1.5em;
+    margin: 10px 0 10px 30px;
+    padding: 2px 8px;
+    float: right;
+
+}
+
+nav > a:hover{
+    color: darkviolet;
+}
+
+h1.intro{
+    font-size: 5em;
+    margin: 100px 0 30px 0;
+}
+
+h2.intro{
+    color: #ff0099;
+    font-size: 2.5em;
+}
+
+#tech-wiki{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0 50px 0;
+    font-family: 'Merriweather', Consolas, serif;
+}
+
+#separator{
+    text-align: center;
+    margin: 50px 0;
+}
+
+main>h2, h1{
+    font-family: 'Merriweather', Consolas, serif;
+}
